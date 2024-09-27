@@ -1,0 +1,3 @@
+node_modules
+dist
+input/{train|validate}/{circle|square|triangle}_*.txt
