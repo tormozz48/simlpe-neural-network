@@ -4,6 +4,7 @@
   "description": "Simple neural network example",
   "main": "src/index.ts",
   "scripts": {
+    "build": "tsc",
     "generate": "ts-node src/dataGenerator.ts",
     "start": "ts-node src/index.ts",
     "lint": "prettier -w . && eslint src/**/*.ts"
