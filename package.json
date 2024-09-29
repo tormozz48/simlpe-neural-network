@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "Simple neural network example",
   "main": "src/index.ts",
-  "scripts": {
-    "build": "tsc",
-    "generate": "ts-node src/dataGenerator.ts",
-    "start": "ts-node src/index.ts",
-    "lint": "prettier -w . && eslint src/**/*.ts"
+  "author": {
+    "name": "Andrii Kuznietsov",
+    "email": "tormozz48@gmail.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tormozz48/simlpe-neural-network.git"
   },
   "keywords": [
     "ai",
@@ -16,8 +19,12 @@
     "recognition",
     "typescript"
   ],
-  "author": "tormozz48@gmail.com",
-  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "generate": "ts-node src/dataGenerator.ts",
+    "start": "ts-node src/index.ts",
+    "lint": "prettier -w . && eslint src/**/*.ts"
+  },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
     "@types/node": "^22.7.3",
